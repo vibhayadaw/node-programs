@@ -1,0 +1,15 @@
+{
+  "name": "understanding-node",
+  "version": "1.0.0",
+  "description": "This project checks the understanding of the node project",
+  "main": "observableExample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node observableExample.js"
+  },
+  "author": "Vibha Singh",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  }
+}

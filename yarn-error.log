@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\yvibha\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add RxJS
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Novell\GroupWise;C:\Program Files\Novell\iPrint;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Users\yvibha\AppData\Local\Microsoft\WindowsApps;C:\Users\yvibha\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.0
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/RxJS: Not found
+      at Request.params.callback [as _callback] (C:\Users\yvibha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66938:18)
+      at Request.self.callback (C:\Users\yvibha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140622:22)
+      at Request.emit (events.js:209:13)
+      at Request.<anonymous> (C:\Users\yvibha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141594:10)
+      at Request.emit (events.js:209:13)
+      at IncomingMessage.<anonymous> (C:\Users\yvibha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141516:12)
+      at Object.onceWrapper (events.js:298:28)
+      at IncomingMessage.emit (events.js:214:15)
+      at endReadableNT (_stream_readable.js:1178:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "understanding-node",
+    "version": "1.0.0",
+    "description": "This project checks the understanding of the node project",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vibha Singh",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
