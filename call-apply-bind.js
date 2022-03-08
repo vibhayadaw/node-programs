@@ -1,23 +1,23 @@
-// let name = {
+// let name1 = {
 //   firstname: "Vibha",
 //   lastname: "Singh",
 //   printFullName: function () {
 //     console.log(this.firstname + " " + this.lastname)
 //   }
 // }
-// name.printFullName();
+// name1.printFullName();
 
-// let name2 = {
+// let name5 = {
 //   firstname: "Sachin",
 //   lastname: "Tendulakar"
 // }
 
 // //function borrowing : Call function of one object to other object
-// name.printFullName.call(name2);
+// name1.printFullName.call(name5);
 
-//But ins 
+// But ins 
 
-let name = {
+let name3 = {
   firstname: "Vibha",
   lastname: "Singh",
 }
@@ -27,7 +27,7 @@ let printFullName = function (hometown, state) {
 }
 // printFullName(name, "Kanpur");
 //or 
-printFullName.call(name, "Kanpur", "UP");
+printFullName.call(name3, "Kanpur", "UP");
 
 let name2 = {
   firstname: "Sachin",
@@ -43,6 +43,6 @@ printFullName.apply(name2, ["Mumbai", "Maharastra"]);
 
 //bind gives u a copy which could be invoked later
 
-let printNameDetails = printFullName.bind(name2, "Mumbai", "Maharastra");
+let printNameDetails = printFullName.bind(name3, "Mumbai", "Maharastra");
 console.log(printNameDetails);
 printNameDetails();
